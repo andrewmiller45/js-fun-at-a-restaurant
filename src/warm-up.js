@@ -36,9 +36,9 @@ var isFavorite = false;
 // comparison operator.
 var shouldOrderMore
   if (inStock < 20) {
-    console.log();(`We need to order more!`)
+    shouldOrderMore = true
 } else {
-    console.log(`We don't need to order.`);
+    shouldOrderMore = false
 }
 console.log(shouldOrderMore);
 
